@@ -146,8 +146,10 @@ ul {
   color: var(--accent-color);
 }
 
-.header-contacts:hover > .contact-icon,
-.header-contacts:focus > .contact-icon {
+.header-contacts-item:hover .contact-icon,
+.header-link,
+.header-contacts-item:focus .contact-icon,
+.header-link {
   fill: var(--accent-color);
 }
 
@@ -408,12 +410,12 @@ ul {
 }
 
 .partners-list-item:hover,
-.partners-list-item:focus {
+.partners-list-list:focus {
   border-color: var(--accent-color);
 }
 
 .partners-list-item:hover .icon,
-.partners-list-item:focus .icon {
+.partners-list-list:focus .icon {
   fill: var(--accent-color);
 }
 
