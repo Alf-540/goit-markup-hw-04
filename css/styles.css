@@ -146,10 +146,8 @@ ul {
   color: var(--accent-color);
 }
 
-.header-contacts-item:hover .contact-icon,
-.header-link,
-.header-contacts-item:focus .contact-icon,
-.header-link {
+.header-link:hover > .contact-icon,
+.header-link:focus > .contact-icon {
   fill: var(--accent-color);
 }
 
@@ -374,6 +372,10 @@ ul {
   fill: var(--svg-fill);
 }
 
+.social-icon-bgd:not(:first-child) {
+  margin-left: 10px;
+}
+
 .social-icon-bgd:hover,
 .social-icon-bgd:focus {
   background-color: var(--accent-color);
@@ -414,8 +416,8 @@ ul {
   border-color: var(--accent-color);
 }
 
-.partners-list-item:hover .icon,
-.partners-list-list:focus .icon {
+.partners-list-link:hover .icon,
+.partners-list-link:focus .icon {
   fill: var(--accent-color);
 }
 
